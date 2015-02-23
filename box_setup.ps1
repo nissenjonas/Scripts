@@ -26,6 +26,7 @@ choco install jump-location -y
 choco install git -y
 #TODO setup git.config
 # git config --global user.name ""
+# git config --global user.email ""
 choco install poshgit -y
 
 #choco install atom -y
