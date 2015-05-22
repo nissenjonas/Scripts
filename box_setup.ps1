@@ -17,7 +17,7 @@ choco install fiddler -y
 choco install putty -y
 choco install sublimetext3 -y
 choco install dotpeek -y
-choco install diffmerge
+choco install diffmerge -y
 
 # Console
 choco install console2 -y
@@ -28,6 +28,9 @@ choco install git -y
 # git config --global user.name ""
 # git config --global user.email ""
 choco install poshgit -y
+
+# Productivity
+choco install f.lux -y
 
 #choco install atom -y
 #choco install sysinternals -y
