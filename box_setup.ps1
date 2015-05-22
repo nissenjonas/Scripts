@@ -1,10 +1,4 @@
-﻿ # Create and register Chocolatey install dir
-# $chocoDir = $env:HomeDrive + "\Utils\Chocolatey"
-# [Environment]::SetEnvironmentVariable("ChocolateyInstall", $chocoDir, "Machine")
-# $env:ChocolateyInstall = $chocoDir # Ensures the variable is set for the current process
-# md $env:ChocolateyInstall
-
-# Install Chocolatey
+﻿# Install Chocolatey
 Set-ExecutionPolicy RemoteSigned -Force
 (iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')))>$null 2>&1
 
