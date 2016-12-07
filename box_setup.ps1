@@ -14,27 +14,18 @@ choco install dotpeek -y
 choco install diffmerge -y
 
 # Console
-choco install console2 -y
-choco install jump-location -y
+choco install cmder -y
 
 choco install git -y
-#TODO setup git.config
-# git config --global user.name ""
-# git config --global user.email ""
 choco install poshgit -y
 
 # Productivity
 choco install f.lux -y
 
-#choco install atom -y
+choco install visualstudiocode -y
 #choco install sysinternals -y
-#choco install ruby
-#choco install nodejs
-#choco install npm
 #choco install curl
-#choco install scriptcs
 #choco install wireshark
-#choco install sourcetree
 
 # Browsers
 choco install google-chrome-x64 -y
